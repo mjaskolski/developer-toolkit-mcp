@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mjaskolski/developer-toolkit-mcp",
+  "description": "The documentation, as a tool your agent can call. Read-only MCP endpoint over 950+ guides on AI-assisted development (Cursor, Claude Code, Codex) in EN and PL. Two tools: search the documentation, and fetch any article as markdown. No account, no API key.",
+  "websiteUrl": "https://developertoolkit.ai/en/mcp/",
+  "repository": { "url": "https://github.com/mjaskolski/developer-toolkit-mcp", "source": "github" },
+  "version": "1.0.0",
+  "remotes": [ { "type": "streamable-http", "url": "https://developertoolkit.ai/mcp" } ]
+}
